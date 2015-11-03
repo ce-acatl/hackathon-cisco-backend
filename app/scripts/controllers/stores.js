@@ -37,7 +37,7 @@ angular.module('backendApp')
           units: 'pixels',
           extent: extent
         });
-
+        console.log($filter("authTempUrl")(mall.map,"learning:learning"));
         $scope.map = new ol.Map({
           layers: [
             new ol.layer.Image({
@@ -47,6 +47,7 @@ angular.module('backendApp')
                     html: '&copy; <a href="http://xkcd.com/license.html">xkcd</a>'
                   })
                 ],
+                //url: $filter("authTempUrl")(mall.map,"learning:learning"),
                 url: mall.map,
                 projection: projection,
                 imageExtent: extent

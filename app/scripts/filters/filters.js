@@ -22,3 +22,11 @@ angular.module('backendApp')
 		}
 	}
 ])
+
+.filter("authTempUrl", [
+	function(){
+		return function(url,auth){
+			return url.replace("https://","https://"+auth+"@");
+		}
+	}
+])
