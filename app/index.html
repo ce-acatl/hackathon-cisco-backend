@@ -9,12 +9,12 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/angular-google-places-autocomplete/dist/autocomplete.min.css" />
+    <link rel="stylesheet" href="bower_components/ng-tags-input/ng-tags-input.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/angular-google-places-autocomplete/src/autocomplete.css">
     <link rel="stylesheet" href="http://openlayers.org/en/v3.10.1/css/ol.css" type="text/css">
     <!-- endbuild -->
   </head>
@@ -47,7 +47,7 @@
               <li ng-class="{'active':activePage == 'stores'}">
                 <a ng-href="#/stores" ng-click="activePage = 'stores'">Stores</a></li>
               <li ng-class="{'active':activePage == 'products'}">
-                <a ng-href="#/Products" ng-click="activePage = 'products'">Products</a></li>
+                <a ng-href="#/products" ng-click="activePage = 'products'">Products</a></li>
               <li ng-class="{'active':activePage == 'login' || F.activePage == 'account'}">
                 <a ng-hide-auth href="#/login" ng-click="activePage = 'login'">Log in</a>
                 <a ng-show-auth href="#/account" ng-click="activePage = 'account'">Account</a>
@@ -79,7 +79,7 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-google-places-autocomplete/src/autocomplete.js"></script>
     <script src="bower_components/angular-google-places-autocomplete/dist/autocomplete.min.js"></script>
-    <script src="http://openlayers.org/en/v3.10.1/build/ol.js"></script>
+    <script src="bower_components/ng-tags-input/ng-tags-input.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

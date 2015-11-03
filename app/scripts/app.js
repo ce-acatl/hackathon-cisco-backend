@@ -18,5 +18,14 @@ angular.module('backendApp', [
     'firebase',
     'firebase.ref',
     'firebase.auth',
-    'google.places'
-  ]);
+    'google.places',
+    'ngTagsInput'
+  ])
+
+.config(function(tagsInputConfigProvider) {
+  tagsInputConfigProvider
+    .setDefaults('tagsInput', {
+      minLength: 1,
+      addOnEnter: true
+    })
+});

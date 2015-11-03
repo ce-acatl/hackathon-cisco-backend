@@ -6,63 +6,121 @@
 		<i class="glyphicon" ng-class="{'glyphicon-plus': !showForm, 'glyphicon-remove': showForm}"></i>
 	</button>
 </h2>
-<form name="storeForm" novalidate ng-show="showForm">
+
+<!-- AQUI SI -->
+<form name="productsForm" novalidate ng-show="showForm">
 	<div class="row">
-		<div class="col-xs-5">
-			<select class="form-control" name="mall" ng-model="newStore.mall" ng-options="mall.$id as mall.name for mall in malls" required>
+		<div class="col-xs-6">
+			<input placeholder="Nombre del producto" type="text" name="name" ng-model="newProduct.name" class="form-control" required>
+		</div>
+		<div class="col-xs-6">
+			<select class="form-control" ng-model="newProduct.gender" ng-options="gender as gender for gender in genders" required>
+				<option value="">Seleccionar Género</option>
 			</select>
-		</div>
-		<div class="col-xs-5">
-			<input type="text" name="name" ng-model="newStore.name" class="form-control" required>
-		</div>
-		<div class="col-xs-2">
-			<button ng-disabled="storeForm.$invalid" class="btn btn-primary" ng-click="addStore(newStore);newStore = null;showForm = false">Guardar</button>
 		</div>
 	</div>
 	<br>
 	<div class="row">
-		<label>Click to record</label>
-		<div id="map" ng-click="recordEvent($event)" class="relative" ng-style="mapStyle">
-			<div id="popup"></div>
+		<div class="col-xs-6">
+			<select name="brand" class="form-control" ng-model="newProduct.brand" ng-options= "brand as brand for brand in brands" required>
+				<option value="">Seleccionar Marca</option>
+       		</select>
+		</div>
+        <div class="col-xs-6"> 
+        	<input type="url" placeholder="Imagen" type="text" class="form-control" ng-model="newProduct.img" name="img" required>
+        </div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-4">
+			<select ng-change="loadStores(newProduct.mall)" class="form-control" ng-model="newProduct.mall" ng-options="mall.$id as mall.name for mall in malls" required>
+				<option value="">Seleccionar Plaza</option>
+			</select>	
+		</div>
+		<div class="col-xs-4">
+			<select class="form-control" ng-model="newProduct.store" ng-options="store.$id as store.name for store in stores" required>
+				<option value="">Seleccionar Tienda</option>
+			</select>
+		</div>
+		<div class="col-xs-4">
+			<input placeholder="Precio" type="number" class="form-control" ng-model="newProduct.price" name="price" required>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-6">
+			<tags-input placeholder="Tags" ng-model="newProduct.tags" required></tags-input>
+		</div>
+		<div class="col-xs-6">
+			<tags-input placeholder="Medidas" ng-model="newProduct.sizes" required></tags-input>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-6">
+			<input placeholder="Descuento" type="number" class="form-control" ng-model="newProduct.discount" name="discount">
+		</div>
+		<div class="col-xs-6">
+			<input placeholder="Descuento en Tienda" type="number" class="form-control" ng-model="newProduct.hidden_discount" name="hidden_discount">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-2">
+			<button ng-disabled="productsForm.$invalid" class="btn btn-primary" ng-click="addProduct(newProduct);newProduct = null;showForm = false">Guardar</button>
 		</div>
 	</div>
 </form>
 <br>
+
 <div class="row">
 	<table class="table table-hover">
 		<tr>
 			<th>Mall</th>
 			<th>Store</th>
-			<th>X</th>
-			<th>Y</th>
-			<th></th>
+			<th>Product</th>
+			<th>Price</th>
+			<th>Tags</th>
+			<th>Img</th>
 		</tr>
-		<tr ng-repeat="store in stores | reverse" ng-init="editStore[$index]">
+		<tr ng-repeat="product in products | reverse" ng-init="editProduct[$index]">
 			<td>
-				<select class="form-control" name="mall" ng-model="store.mall" ng-options="mall.$id as mall.name for mall in malls" ng-show="editStore[$index]">
+				<select ng-change="loadStores(product.mall)" class="form-control" ng-model="product.mall" ng-options="mall.$id as mall.name for mall in malls" ng-show="editProduct[$index]">
 				</select>
-				<span ng-hide="editStore[$index]">{{(store.mall | mallById:malls).name}}</span>
+				<span ng-hide="editProduct[$index]">{{(product.mall | mallById:malls).name}}</span>
 			</td>
 			<td>
-				<input type="text" ng-model="store.name" class="form-control" ng-show="editStore[$index]">
-				<span ng-hide="editStore[$index]">{{store.name}}</span>
+				<select class="form-control" ng-model="product.store" ng-options="store.$id as store.name for store in stores" ng-show="editProduct[$index]">
+				</select>
+				<span ng-hide="editProduct[$index]">{{(product.store | storeById:stores).name}}</span>
 			</td>
 			<td>
-				<input type="text" ng-model="store.location.x" class="form-control" ng-show="editStore[$index]">
-				<span ng-hide="editStore[$index]">{{store.location.x}}</span>
+				<input type="text" ng-model="product.name" class="form-control" ng-show="editProduct[$index]">
+				<span ng-hide="editProduct[$index]">{{product.name}}</span>
 			</td>
 			<td>
-				<input type="text" ng-model="store.location.y" class="form-control" ng-show="editStore[$index]">
-				<span ng-hide="editStore[$index]">{{store.location.y}}</span>
+				<input type="number" ng-model="product.price" class="form-control" ng-show="editProduct[$index]">
+				<span ng-hide="editProduct[$index]">{{product.price | currency}}</span>
 			</td>
 			<td>
-				<button ng-show="editStore[$index]" class="btn btn-success" ng-click="saveStore(store);editStore[$index] = !editStore[$index]">
+				<tags-input placeholder="Tags" ng-model="product.tags" ng-show="editProduct[$index]"></tags-input>
+				<span ng-hide="editProduct[$index]">
+					<span ng-repeat="tag in product.tags">{{tag.text}}, </span>
+				</span>
+			</td>
+			<td>
+				<input type="url" ng-model="product.img" class="form-control" ng-show="editProduct[$index]">
+				<span ng-hide="editProduct[$index]">
+					<img ng-src="{{product.img | thumb:30:30:3}}">
+				</span>
+			</td>
+			<td>
+				<button ng-show="editProduct[$index]" class="btn btn-success" ng-click="saveStore(store);editProduct[$index] = !editProduct[$index]">
 					<i class="glyphicon glyphicon-floppy-disk"></i>
 				</button>
-				<button ng-hide="editStore[$index]" class="btn btn-primary" ng-click="editStore[$index] = !editStore[$index]">
+				<button ng-hide="editProduct[$index]" class="btn btn-primary" ng-click="editProduct[$index] = !editProduct[$index]">
 					<i class="glyphicon glyphicon-pencil"></i>
 				</button>
-				<button class="btn btn-danger" ng-click="removeStore(store)">
+				<button class="btn btn-danger" ng-click="removeProduct(product)">
 					<i class="glyphicon glyphicon-trash"></i>
 				</button>
 			</td>

@@ -1,0 +1,1505 @@
+[
+	{
+      
+		"name": "Signature Slim Ff DOCKERS",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DOCKERS",
+		"price": 899.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/original/2437510.jpg",
+		"tags": ["pantalon","mezclilla","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "pantalon DOCKERS casual",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DOCKERS",
+		"price": 499.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/original/2335339.jpg",
+		"tags": ["pantalon","mezclilla","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "Pantalón Piel de Toro, Regular Fit",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Piel de Toro",
+		"price": 1249.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/original/2413985.jpg",
+		"tags": ["pantalon","piel","rojo","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "Pantalon Basico Modelo 408290010, Regular Fit",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DOCKERS",
+		"price": 899.00,
+		"discount": "10%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/original/473195.jpg",
+		"tags": ["pantalon","piel","rojo","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Pantalón J.opus, Regular Fit",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 449.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/original/2401658.jpg",
+		"tags": ["pantalon","norma","caqui","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "PANTALÓN PARA CABALLERO JBE",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 479.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://media12.liverpool.com.mx/web/images/products/es_MX/xl/1038855031.jpg",
+		"tags": ["pantalon","norma","azul","hombre"],
+		"mall": {
+			"name" : "liverpool",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+
+		{
+      
+		"name": "PANTALÓN PARA CABALLERO GIVENCHY",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 1356.00,
+		"discount": "10%",
+		"hidden_dicount": "10%",
+		"img": "http://media15.liverpool.com.mx/web/images/products/es_MX/xl/1042466308.jpg",
+		"tags": ["pantalon","norma","cafe","hombre"],
+		"mall": {
+			"name" : "liverpool",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+
+
+		{
+      
+		"name": "PANTALÓN PARA CABALLERO THAT'S I",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 479.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://media18.liverpool.com.mx/web/images/products/es_MX/xl/1033763413.jpg",
+		"tags": ["pantalon","norma","vino","hombre"],
+		"mall": {
+			"name" : "liverpool",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "PANTALÓN PARA CABALLERO BENETTON",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 472.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://media15.liverpool.com.mx/web/images/products/es_MX/xl/1031839684.jpg",
+		"tags": ["pantalon","norma","cafe bajo","hombre"],
+		"mall": {
+			"name" : "liverpool",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "PANTALÓN PARA CABALLERO THAT'S I",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "j.opus",
+		"price": 479.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://media18.liverpool.com.mx/web/images/products/es_MX/xl/1033763413.jpg",
+		"tags": ["pantalon","norma","vino","hombre"],
+		"mall": {
+			"name" : "liverpool",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "PANTALÓN CORDÓN",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 699.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://static.zara.net/photos//2015/I/0/2/p/8369/306/802/2/w/200/8369306802_2_2_1.jpg?timestamp=1439917469336",
+		"tags": ["pantalon","norma","cgris claro","hombre"],
+		"mall": {
+			"name" : "zara",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "zara",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "PANTALÓN TÉCNICO DETALLE RODILLA",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 699.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://static.zara.net/photos//2015/I/0/2/p/8574/304/800/2/w/400/8574304800_2_1_1.jpg?timestamp=1440494181779",
+		"tags": ["pantalon","norma","negro","hombre"],
+		"mall": {
+			"name" : "zara",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "zara",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+
+	},
+{
+      
+		"name": "PANTALÓN JOGGER",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 699.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://static.zara.net/photos//2015/I/0/2/p/6096/304/800/2/w/400/6096304800_2_2_1.jpg?timestamp=1437136235791",
+		"tags": ["pantalon","norma","negro-rayas gris","hombre"],
+		"mall": {
+			"name" : "zara",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "zara",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+
+	},
+	{
+      
+		"name": "SHORTS MALLA LARGA INTERIOR",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 699.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://static.zara.net/photos//2015/I/0/2/p/8574/300/800/2/w/400/8574300800_2_9_1.jpg?timestamp=1437579121694",
+		"tags": ["pantalon","norma","negro-rayas gris","hombre"],
+		"mall": {
+			"name" : "zara",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "zara",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+ },
+ {
+      
+		"name": "LEGGING DEPORTIVO",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 549.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://static.zara.net/photos//2015/I/0/2/p/6096/307/800/2/w/400/6096307800_1_1_1.jpg?timestamp=1439917193560",
+		"tags": ["pantalon","norma","gris","hombre"],
+		"mall": {
+			"name" : "zara",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "zara",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+ },
+ {
+      
+		"name": "Pantalón 7 Leguas",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 229.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://www.coppel.com/images/photos/calzado/129052-1.jpg",
+		"tags": ["pantalon","norma","gris","hombre"],
+		"mall": {
+			"name" : "coppel",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+ },
+ {
+      
+		"name": "Pantalón Refill Straigh",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "zara",
+		"price": 179.00,
+		"discount": "0%",
+		"hidden_dicount": "0%",
+		"img": "http://www.coppel.com/images/photos/calzado/127807-1.jpg",
+		"tags": ["pantalon","jeans","azul","hombre"],
+		"mall": {
+			"name" : "coppel",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+      
+		"name": "Pantalón Lee Regular Fit",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Lee",
+		"price": 400.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://www.coppel.com/images/photos/calzado/127807-1.jpg",
+		"tags": ["pantalon","jeans","azul","hombre"],
+		"mall": {
+			"name" : "coppel",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+   		"name": "Pantalón Levi's 501 Largo 32",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Levi",
+		"price": 699.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://www.coppel.com/images/photos/calzado/100739-1.jpg",
+		"tags": ["pantalon","jeans","negro","hombre","oscuro"],
+		"mall": {
+			"name" : "coppel",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+} ,  
+
+{
+			"name": "Copy of Jeans Mid Rise",
+		"category": "pantalones",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "Mid Rise",
+		"price": 299.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1502688_lwsh_1_5e80d386-01f6-4627-9732-c4fe6aa39a4b_1024x1024.jpg?v=1446477131",
+		"tags": ["pantalon","jeans","negro","hombre","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "marca:Copy of Karly Skinny Jeanse",
+		"category": "pantalones",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "Mid Rise",
+		"price": 399.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/0000_1500701_darkwash_1.jpg_4e70db7a-d4ac-41bd-8835-09a3a2667231_1024x1024.jpg?v=1446476486",
+		"tags": ["pantalon","jeans","azul","mujer","osxuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Jeans Acampanados",
+		"category": "pantalones",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 399.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/full_0023_1505082_blu_1.jpg_1024x1024.jpg?v=1445880502",
+		"tags": ["pantalon","jeans","azul","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Jeans Kelsie Cintura Alta",
+		"category": "pantalones",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 399.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1500703_darkwash_1_38357dd2-3601-4d47-b24e-ebb6d934f793_1024x1024.jpg?v=1443636587",
+		"tags": ["pantalon","jeans","gris","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+		"name": "Shorts Amarre en la Cintura",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 399.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1500703_darkwash_1_38357dd2-3601-4d47-b24e-ebb6d934f793_1024x1024.jpg?v=1443636587",
+		"tags": ["Shorts","grif","negro","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Shorts con Encaje,",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 349.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1501726_blk_2-SHORTS_ENCAJE_1024x1024.jpg?v=1435868484",
+		"tags": ["Shorts","grif","negro","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Poppy Shorts",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 169.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1501356_black_1_1024x1024.jpg?v=1442323119",
+		"tags": ["Shorts","grif","gris","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Shorts de Estampado Paisley",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 349.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1501225_blackcombo_2_1024x1024.jpg?v=1429570521",
+		"tags": ["Shorts","grif","gris","mujer","negro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+	
+			"name": "Shorts Sencillos Marino",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 299.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://cdn.shopify.com/s/files/1/0797/8409/products/1501160_blu_4_1024x1024.jpg?v=1433437195",
+		"tags": ["Shorts","mezclilla","azul","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Shorts para Correr GT Mujer",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 599.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://demandware.edgesuite.net/sits_pod20-adidas/dw/image/v2/aaqx_prd/on/demandware.static/Sites-adidas-MX-Site/Sites-adidas-products/es_MX/v1446460155839/zoom/AA0532_01_laydown.jpg?sw=500&sfrm=jpg",
+		"tags": ["Shorts","negro-rayas","azul","mujer","amarillo"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+			"name": "Shorts de Entrenamiento Athletic Gym Mujer",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "sasha",
+		"price": 499.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://demandware.edgesuite.net/sits_pod20-adidas/dw/image/v2/aaqx_prd/on/demandware.static/Sites-adidas-MX-Site/Sites-adidas-products/es_MX/v1446460155839/zoom/AB0117_21_model.jpg?sw=500&sfrm=jpg",
+		"tags": ["Shorts","blanco","negro","mujer","oscuro"],
+		"mall": {
+			"name" : "sasha",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "sasha",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+	
+			"name": "Shorts Originals MOON Rita Ora Mujer",
+		"category": "Shorts DEPORTIVO",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "marti",
+		"price": 599.00,
+		"discount": "10%",
+		"hidden_dicount": "0%",
+		"img": "http://demandware.edgesuite.net/sits_pod20-adidas/dw/image/v2/aaqx_prd/on/demandware.static/Sites-adidas-MX-Site/Sites-adidas-products/es_MX/v1446460155839/zoom/AA3862_21_model.jpg?sw=500&sfrm=jpg",
+		"tags": ["Shorts","mezclilla","azul","mujer","oscuro"],
+		"mall": {
+			"name" : "marti",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+},
+{
+      
+		"name": "Shorts de Entrenamiento Climachill Mujer",
+		"category": "Shorts DEPORTIVO",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "adidas",
+		"price": 899.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://demandware.edgesuite.net/sits_pod20-adidas/dw/image/v2/aaqx_prd/on/demandware.static/Sites-adidas-MX-Site/Sites-adidas-products/es_MX/v1446460155839/zoom/AB6444_23_model.jpg?sw=500&sfrm=jpg",
+		"tags": ["Shorts","DEPORTIVO","claro","mujer"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "Shorts de Entrenamiento Essentials Hombr",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "adidas",
+		"price": 399.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://demandware.edgesuite.net/sits_pod20-adidas/dw/image/v2/aaqx_prd/on/demandware.static/Sites-adidas-MX-Site/Sites-adidas-products/es_MX/v1446460155839/zoom/AB6581_01_laydown.jpg?sw=500&sfrm=jpg",
+		"tags": ["pantalon","mezclilla","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "SHORT NIKE SWIM NATACIÓN VOLLEY",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "NIKE",
+		"price": 629.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.marti.mx/img/p/40091-71319-large.jpg",
+		"tags": ["Shorts","DEPORTIVO","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "SHORT NIKE PRO FITNESS COOL COMPRESSION 6",
+		"category": "pantalones",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "NIKE",
+		"price": 629.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.marti.mx/img/p/39720-70915-large.jpg",
+		"tags": ["ajustado","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "SHORT COLUMBIA CORRER MEN´S IN THE DUST",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "NIKE",
+		"price": 749.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.marti.mx/img/p/39437-70679-large.jpg",
+		"tags": ["DEPORTIVO","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "SHORT NIKE FITNESS PRO 3 STATIC MUJER",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "NIKE",
+		"price": 499.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.marti.mx/img/p/39392-71651-large.jpg",
+		"tags": ["DEPORTIVO","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "SHORT NIKE CORRER RACER WOVEN MUJER",
+		"category": "Shorts",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "NIKE",
+		"price": 349.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.marti.mx/img/p/39392-71651-large.jpg",
+		"tags": ["DEPORTIVO","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "marti",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "SHORTS DENIM & SUPPLY A RAYAS MODELO NOMAD HIKING",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DENIM & SUPPLY",
+		"price": 700.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "",
+		"tags": ["DEPORTIVO","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "SHORT PARA CABALLERO DENIM & SUPPLY",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DENIM & SUPPLY",
+		"price": 728.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media19.liverpool.com.mx/web/images/products/es_MX/xl/1035592462.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "SHORT PARA CABALLERO DENIM & SUPPLY",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DENIM & SUPPLY",
+		"price": 728.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media19.liverpool.com.mx/web/images/products/es_MX/xl/1035592462.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+
+	
+		{
+      
+		"name": "CORTO PÁRRAFO CABALLERO Levi",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Levi",
+		"price": 259.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media21.liverpool.com.mx/web/images/products/es_MX/xl/1038452823.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+			{
+      
+		"name": "SHORTS DENIM & SUPPLY DE POPELINA EN ESTAMPADO FLORAL TANNER",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "DENIM & SUPPLY",
+		"price": 400,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media11.liverpool.com.mx/web/images/products/es_MX/xl/1035593221.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+			{
+      
+		"name": "BERMUDA CASUAL",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "amazon",
+		"price": 200.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://chapur.s3.amazonaws.com/produccion/productos/3070198.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Bermuda / Contempo",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Contempo",
+		"price": 298.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media19.liverpool.com.mx/web/images/products/es_MX/xl/1035592462.jpg",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+			{
+      
+		"name": "Bermuda / Weekend",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Weekend",
+		"price": 268.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://modaparalavidareal.com/wp-content/uploads/G815A0302575KUN1.png",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": ":Bermuda / Contempo",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Contempo",
+		"price": 298.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://modaparalavidareal.com/wp-content/uploads/G815A0217571LKS.png",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "coppel",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "marca:Bermuda / Contempo",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Contempo",
+		"price": 298.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://modaparalavidareal.com/wp-content/uploads/G815A0217571LKS.png",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "suburbian",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+			{
+      
+		"name": "Bermuda / Contemp",
+		"category": "Shorts",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "Contempo",
+		"price": 298.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://modaparalavidareal.com/wp-content/uploads/G815A0217571LKS.png",
+		"tags": ["casual","Shorts","claro","hombre"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "suburbian¿",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+
+		{
+      
+		"name": "BLUSA PÁRRAFO DAMA BYER",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "parrafo DAMA",
+		"price": 455.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media17.liverpool.com.mx/web/images/products/es_MX/xl/1040436886.jpg",
+		"tags": ["casual","bonito","claro","lindo"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "BLUSA PÁRRAFO DAMA Levi",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "Levi",
+		"price": 799.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media24.liverpool.com.mx/web/images/products/es_MX/xl/1040403741.jpg",
+		"tags": ["casual","bonito","claro","hermosa"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "BLUSA PARA DAMA FRAGIL BY XOXO",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "XOXO",
+		"price": 319.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media13.liverpool.com.mx/web/images/products/es_MX/xl/1041916431.jpg",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "BLUSA PÁRRAFO DAMA FRAGIL POR XOXO",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "XOXO",
+		"price": 279.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media25.liverpool.com.mx/web/images/products/es_MX/xl/1041147420.jpg",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "BLUSA PARA DAMA CALVIN KLEIN",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "cal KLEIN",
+		"price":  879.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media14.liverpool.com.mx/web/images/products/es_MX/xl/1042474831.jpg",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Blusa Foley´s, Escote V",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "Foley´s",
+		"price": 899.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://medios.plazavip.com/fotos/productos_sears1/340x260/2428632.jpg",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Blusa Basel,",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "polo club",
+		"price": 350.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "Sears",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "BLUSA PÁRRAFO DAMA BYER",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "DAMA BYER",
+		"price": 455.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Blusa / Contempo",
+		"category": "blusa",
+		"gender": "female",
+		"sizes": ["s","m","xl"],
+		"brand": "Contempo",
+		"price": 298.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "",
+		"tags": ["casual","bonito","claro",""],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "suburbian",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+	{
+      
+		"name": "playera max",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "optima",
+		"price": 49.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.optimacottonwear.com.mx/productos/playeras/PLAYERA_OPTIMA_32603_A12GGD.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "del sol",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Playera Prime",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "optima",
+		"price": 39.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.optimacottonwear.com.mx/productos/playeras/PLAYERA_OPTIMA_32702_A12CGD.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "del sol",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Playera Ranglan",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "optima",
+		"price": 69.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.optimacottonwear.com.mx/productos/playeras/PLAYERA_OPTIMA_31623_A12AGD.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "DEL sol",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Playera Heavy Combinad",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "optima",
+		"price": 65.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.optimacottonwear.com.mx/productos/playeras/PLAYERA_OPTIMA_31622_A12AGD.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "del sol",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "Playera Polo Pique,",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "optima",
+		"price": 79.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://www.optimacottonwear.com.mx/productos/playeras/PLAYERA_OPTIMA_33912_A12CGD.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "del sol",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "LAYERA TIPO POLO PÁRRAFO CABALLERO BENETTON",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "BENETTON",
+		"price": 792.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media15.liverpool.com.mx/web/images/products/es_MX/xl/1037326646.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "PLAYERA TIPO POLO PARA CABALLERO AÉROPOSTALE",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "AÉROPOSTALE",
+		"price":449.00 ,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media16.liverpool.com.mx/web/images/products/es_MX/xl/1037623161.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "PLAYERA PÁRRAFO CABALLERO POLO RALPH LAUREN",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "RALPH LAUREN",
+		"price": 1790.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media15.liverpool.com.mx/web/images/products/es_MX/xl/1039153331.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "PLAYERA PARA CABALLERO",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "puma",
+		"price": 559.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "http://media20.liverpool.com.mx/web/images/products/es_MX/xl/1042570008.jpg",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "liverpool",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	},
+		{
+      
+		"name": "DÍA DE MUERTOS",
+		"category": "playera",
+		"gender": "male",
+		"sizes": ["s","m","xl"],
+		"brand": "mascara de latex",
+		"price": 250.00,
+		"discount": "20%",
+		"hidden_dicount": "10%",
+		"img": "https://www.mascaradelatex.com/products/art/m/11501.png",
+		"tags": ["casual","bonito","claro","fuerte"],
+		"mall": {
+			"name" : "plaza las americas",
+			"location": "Cancún, México"
+		},
+		"store": {
+			"name": "mascara de latex",
+			"lat": "123412341234",
+			"long": "2452345235"
+		}
+	}
+]
