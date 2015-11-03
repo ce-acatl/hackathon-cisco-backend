@@ -1,0 +1,72 @@
+<h2 ng-init="showForm = false">
+	Products
+	<button class="btn pull-right" 
+			ng-click="showForm = !showForm"
+			ng-class="{'btn-success': !showForm, 'btn-danger': showForm}">
+		<i class="glyphicon" ng-class="{'glyphicon-plus': !showForm, 'glyphicon-remove': showForm}"></i>
+	</button>
+</h2>
+<form name="storeForm" novalidate ng-show="showForm">
+	<div class="row">
+		<div class="col-xs-5">
+			<select class="form-control" name="mall" ng-model="newStore.mall" ng-options="mall.$id as mall.name for mall in malls" required>
+			</select>
+		</div>
+		<div class="col-xs-5">
+			<input type="text" name="name" ng-model="newStore.name" class="form-control" required>
+		</div>
+		<div class="col-xs-2">
+			<button ng-disabled="storeForm.$invalid" class="btn btn-primary" ng-click="addStore(newStore);newStore = null;showForm = false">Guardar</button>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<label>Click to record</label>
+		<div id="map" ng-click="recordEvent($event)" class="relative" ng-style="mapStyle">
+			<div id="popup"></div>
+		</div>
+	</div>
+</form>
+<br>
+<div class="row">
+	<table class="table table-hover">
+		<tr>
+			<th>Mall</th>
+			<th>Store</th>
+			<th>X</th>
+			<th>Y</th>
+			<th></th>
+		</tr>
+		<tr ng-repeat="store in stores | reverse" ng-init="editStore[$index]">
+			<td>
+				<select class="form-control" name="mall" ng-model="store.mall" ng-options="mall.$id as mall.name for mall in malls" ng-show="editStore[$index]">
+				</select>
+				<span ng-hide="editStore[$index]">{{(store.mall | mallById:malls).name}}</span>
+			</td>
+			<td>
+				<input type="text" ng-model="store.name" class="form-control" ng-show="editStore[$index]">
+				<span ng-hide="editStore[$index]">{{store.name}}</span>
+			</td>
+			<td>
+				<input type="text" ng-model="store.location.x" class="form-control" ng-show="editStore[$index]">
+				<span ng-hide="editStore[$index]">{{store.location.x}}</span>
+			</td>
+			<td>
+				<input type="text" ng-model="store.location.y" class="form-control" ng-show="editStore[$index]">
+				<span ng-hide="editStore[$index]">{{store.location.y}}</span>
+			</td>
+			<td>
+				<button ng-show="editStore[$index]" class="btn btn-success" ng-click="saveStore(store);editStore[$index] = !editStore[$index]">
+					<i class="glyphicon glyphicon-floppy-disk"></i>
+				</button>
+				<button ng-hide="editStore[$index]" class="btn btn-primary" ng-click="editStore[$index] = !editStore[$index]">
+					<i class="glyphicon glyphicon-pencil"></i>
+				</button>
+				<button class="btn btn-danger" ng-click="removeStore(store)">
+					<i class="glyphicon glyphicon-trash"></i>
+				</button>
+			</td>
+		</tr>
+	</table>
+</div>
+<p class="alert alert-danger" ng-show="err">{{err}}</p>

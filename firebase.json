@@ -1,0 +1,9 @@
+{
+  "firebase": "mall-flow",
+  "public": "app",
+  "ignore": [
+    "firebase.json"
+    //"**/.*",
+    //"**/node_modules/**"
+  ]
+}

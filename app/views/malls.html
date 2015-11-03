@@ -1,0 +1,64 @@
+<h2 ng-init="showForm = false">
+	Malls
+	<button class="btn pull-right" 
+			ng-click="showForm = !showForm"
+			ng-class="{'btn-success': !showForm, 'btn-danger': showForm}">
+		<i class="glyphicon" ng-class="{'glyphicon-plus': !showForm, 'glyphicon-remove': showForm}"></i>
+	</button>
+</h2>
+<form name="mallForm" novalidate ng-show="showForm">
+	<div class="row">
+		<div class="col-xs-6">
+			<input placeholder="Lugar" type="text" name="location" ng-model="newMall.location" class="form-control" g-places-autocomplete required/>
+		</div>
+		<div class="col-xs-6">
+			<input placeholder="Nombre del Mall" type="text" name="name" ng-model="newMall.name" class="form-control" required>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-xs-10">
+			<input placeholder="Url del mapa" type="url" name="map" ng-model="newMall.map" class="form-control" required/>
+		</div>
+		<div class="col-xs-2">
+			<button ng-disabled="mallForm.$invalid" class="btn btn-primary" ng-click="addMall(newMall);newMall = null;">Guardar</button>
+		</div>
+	</div>
+</form>
+<br>
+<div class="row">
+	<table class="table table-hover">
+		<tr>
+			<th>Mapa</th>
+			<th>Location</th>
+			<th>Mall</th>
+			<th></th>
+		</tr>
+		<tr ng-repeat="mall in malls | reverse" ng-init="editMall[$index]">
+			<td>
+				<input placeholder="Url del mapa" type="url" name="map" ng-model="mall.map" class="form-control" required ng-show="editMall[$index]"/>
+				<img class="mini" ng-src="{{mall.map}}" ng-hide="editMall[$index]">
+			</td>
+			<td>
+				<input type="text" name="location" ng-model="mall.location" class="form-control" g-places-autocomplete ng-show="editMall[$index]"/>
+				<span ng-hide="editMall[$index]">{{mall.location}}</span>
+			</td>
+			<td>
+				<input type="text" ng-model="mall.name" class="form-control" ng-show="editMall[$index]">
+				<span ng-hide="editMall[$index]">{{mall.name}}</span>
+			</td>
+			<td>
+				<button ng-show="editMall[$index]" class="btn btn-success" ng-click="saveMall(mall);editMall[$index] = !editMall[$index]">
+					<i class="glyphicon glyphicon-floppy-disk"></i>
+				</button>
+				<button ng-hide="editMall[$index]" class="btn btn-primary" ng-click="editMall[$index] = !editMall[$index]">
+					<i class="glyphicon glyphicon-pencil"></i>
+				</button>
+				<button class="btn btn-danger" ng-click="removeMall(mall)">
+					<i class="glyphicon glyphicon-trash"></i>
+				</button>
+			</td>
+		</tr>
+	</table>
+</div>
+<p class="alert alert-danger" ng-show="err">{{err}}</p>
